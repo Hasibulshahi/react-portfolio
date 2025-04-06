@@ -17,6 +17,11 @@ function Technologies() {
     npm,
     postman,
     figma,
+    android,
+    kotlin,
+    java,
+    node,
+    angular,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -29,14 +34,84 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={html} title="html" alt="" />
-        <img src={css} title="CSS" alt="" />
-        <img src={js} title="JavaScript" alt="" />
-        <img src={react} title="React" alt="" />
-        <img src={redux} title="Redux" alt="" />
-        <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={bootstrap} title="Bootstrap" alt="" />
-        <img src={sass} title="SASS" alt="" />
+        <div className="text-center">
+          <div className="relative">
+            <img src={html} title="HTML" alt="HTML" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">HTML</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={css} title="CSS" alt="CSS" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">CSS</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={js} title="JavaScript" alt="JavaScript" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">JavaScript</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={react} title="React" alt="React" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">React</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={redux} title="Redux" alt="Redux" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Redux</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Tailwind CSS</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={bootstrap} title="Bootstrap" alt="Bootstrap" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Bootstrap</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={sass} title="SASS" alt="SASS" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">SASS</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={java} title="Java" alt="Java" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Java</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={android} title="Android" alt="Android" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Android</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={kotlin} title="Kotlin" alt="Kotlin" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Kotlin</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={node} title="Node" alt="Node" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Node.Js</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={angular} title="Angular" alt="Angular" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Angular</p>
+          </div>
+        </div>
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -44,12 +119,42 @@ function Technologies() {
         </h1>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={vscode} title="Visual Studio Code" alt="" />
-        <img src={git} title="Git" alt="Git" />
-        <img src={github} title="Github" alt="Github" />
-        <img src={figma} title="Figma" alt="Figma" />
-        <img src={npm} title="NPM" alt="NPM" />
-        <img src={postman} title="Postman" alt="Postman" />
+        <div className="text-center">
+          <div className="relative">
+            <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Visual Studio Code</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={git} title="Git" alt="Git" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Git</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={github} title="Github" alt="Github" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Github</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={figma} title="Figma" alt="Figma" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Figma</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={npm} title="NPM" alt="NPM" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">NPM</p>
+          </div>
+        </div>
+        <div className="text-center">
+          <div className="relative">
+            <img src={postman} title="Postman" alt="Postman" className="mx-auto w-16 h-16" />
+            <p className="text-sm mt-2">Postman</p>
+          </div>
+        </div>
       </section>
     </main>
   );

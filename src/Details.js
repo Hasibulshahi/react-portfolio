@@ -19,6 +19,11 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import java from "./assets/techstack/java.png";
+import android from "./assets/techstack/android.png";
+import kotlin from "./assets/techstack/kotlin.png";
+import node from "./assets/techstack/node.png";
+import angular from "./assets/techstack/angular.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -210,6 +215,11 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  java: java,
+  android: android, 
+  kotlin: kotlin,
+  node: node,
+  angular: angular,
 };
 
 // Enter your Project Details here
