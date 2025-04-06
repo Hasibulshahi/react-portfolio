@@ -1,5 +1,6 @@
 import React from "react";
 import Work from "../Components/Work";
+import Education from "../Components/Education";
 import { personalDetails, workDetails, eduDetails } from "../Details";
 
 function About() {
@@ -16,7 +17,7 @@ function About() {
           Work Experience
         </h1>
         {React.Children.toArray(
-          workDetails.map(({ Position, Company, Client, Location, Type, Duration }) => (
+          workDetails.map(({ Position, Company, Client, Location, Type, Duration, Responsibilities }) => (
             <Work
               position={Position}
               company={Company}
@@ -24,6 +25,7 @@ function About() {
               location={Location}
               type={Type}
               duration={Duration}
+              responsibilities={Responsibilities}
             />
           ))
         )}
@@ -33,10 +35,10 @@ function About() {
           Education
         </h1>
         {React.Children.toArray(
-          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
+          eduDetails.map(({ Degree, University, Location, Type, Duration }) => (
+            <Education
+              degree={Degree}
+              university={University}
               location={Location}
               type={Type}
               duration={Duration}

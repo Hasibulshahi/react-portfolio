@@ -27,11 +27,11 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
-// Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
+// // Logos
+// export const logos = {
+//   logogradient: logogradient,
+//   logo: logo,
+// };
 
 // Enter your Personal Details here
 export const personalDetails = {
@@ -58,6 +58,11 @@ export const workDetails = [
     Location: "Kuala Lumpur, Malaysia",
     Type: "Full Time",
     Duration: "Feb 2025 - Present",
+    Responsibilities: [
+      "Built responsive UI using React",
+      "Integrated RESTful APIs",
+      "Led accessibility improvements",
+    ],
   },
   {
     Position: "Full Stack Developer",
@@ -66,6 +71,11 @@ export const workDetails = [
     Location: "Kuala Lumpur, Malaysia",
     Type: "Full Time",
     Duration: "May 2024 - Feb 2025",
+    Responsibilities: [
+      "Built responsive UI using React",
+      "Integrated RESTful APIs",
+      "Led accessibility improvements",
+    ],
   },
   {
     Position: "Application Development Sr Analyst",
@@ -74,6 +84,11 @@ export const workDetails = [
     Location: "Kuala Lumpur, Malaysia",
     Type: "Full Time",
     Duration: "Nov 2022 - May 2024",
+    Responsibilities: [
+      "Built responsive UI using React",
+      "Integrated RESTful APIs",
+      "Led accessibility improvements",
+    ],
   },
   {
     Position: "Mobile Application Developer",
@@ -82,6 +97,11 @@ export const workDetails = [
     Location: "Kuala Lumpur, Malaysia",
     Type: "Full Time",
     Duration: "Jan 2022 - Oct 2022",
+    Responsibilities: [
+      "Built responsive UI using React",
+      "Integrated RESTful APIs",
+      "Led accessibility improvements",
+    ],
   },
   {
     Position: "Junior Software Engineer",
@@ -90,21 +110,26 @@ export const workDetails = [
     Location: "Dhaka, Bangladesh",
     Type: "Full Time",
     Duration: "Jun 2016 - Jul 2019",
+    Responsibilities: [
+      "Built responsive UI using React",
+      "Integrated RESTful APIs",
+      "Led accessibility improvements",
+    ],
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Master of Science",
-    Company: "University Putra Malaysia",
+    Degree: "Master of Science",
+    University: "University Putra Malaysia",
     Location: "Kuala Lumpur, Malaysia",
     Type: "Full Time",
     Duration: "Nov 2019 - Dec 2021",
   },
   {
-    Position: "Bachelor in Computer Science & Engineering",
-    Company: "Ahsanullah University of Science & Technology",
+    Degree: "Bachelor in Computer Science & Engineering",
+    University: "Ahsanullah University of Science & Technology",
     Location: "Dhaka, Bangladesh",
     Type: "Full Time",
     Duration: "Apr 2013 - Jun 2017",
