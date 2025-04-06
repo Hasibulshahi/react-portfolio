@@ -1,18 +1,9 @@
-import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import Work from "../Components/Work";
 import Education from "../Components/Education";
 import { personalDetails, workDetails, eduDetails } from "../Details";
 
 function About() {
-
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    // Redirect to the home page when the About page is loaded or refreshed
-    navigate('/about');
-  }, [navigate]);
-
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>
