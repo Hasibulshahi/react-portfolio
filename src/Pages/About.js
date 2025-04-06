@@ -10,7 +10,7 @@ function About() {
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           About Me
         </h1>
-        <p style={{ textAlign: "justify" }}>{personalDetails.about}</p>
+        <p  className="text-content md:text-lg lg:text-xl cursor-pointer text-justify">{personalDetails.about}</p>
       </section>
       <section>
         <h1 className="mt-8 text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
