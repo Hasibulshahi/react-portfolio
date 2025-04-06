@@ -5,6 +5,10 @@ on:
     branches:
       - main # or your default branch
 
+permissions:
+  contents: write  # Grants write access to repository content (needed for pushing to `gh-pages`)
+  pages: write     # Grants write access to GitHub Pages (needed for deployment)
+
 jobs:
   build:
     runs-on: ubuntu-latest
