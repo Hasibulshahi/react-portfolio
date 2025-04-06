@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.af7078af.css",
-    "main.js": "/react-portfolio/static/js/main.16f6c470.js",
+    "main.js": "/react-portfolio/static/js/main.d558551f.js",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.749bf5e303f0d5ea12c6.jpg",
     "static/media/node.png": "/react-portfolio/static/media/node.5522d71d27eff5c1fec8.png",
     "static/media/project2.jpg": "/react-portfolio/static/media/project2.5fae296d371cc56cd98a.jpg",
     "static/media/project4.jpg": "/react-portfolio/static/media/project4.a7b7ed11daa072b234eb.jpg",
     "static/media/project3.jpg": "/react-portfolio/static/media/project3.03535c34c110b7ea292b.jpg",
+    "static/media/android.png": "/react-portfolio/static/media/android.c12505dfe6a5c83b3639.png",
     "static/media/kotlin.png": "/react-portfolio/static/media/kotlin.e1381680d4510851c2c7.png",
     "static/media/java.png": "/react-portfolio/static/media/java.164a8e90ec009174e07c.png",
     "static/media/angular.png": "/react-portfolio/static/media/angular.a3e3e73581ab41d0f0d3.png",
-    "static/media/android.png": "/react-portfolio/static/media/android.eeae129bfab3da8f9357.png",
     "static/media/project5.jpg": "/react-portfolio/static/media/project5.f78aa3fd070fc4dd0bd1.jpg",
     "static/media/project6.jpg": "/react-portfolio/static/media/project6.a22c939898d6c4613b65.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.af7078af.css.map": "/react-portfolio/static/css/main.af7078af.css.map",
-    "main.16f6c470.js.map": "/react-portfolio/static/js/main.16f6c470.js.map"
+    "main.d558551f.js.map": "/react-portfolio/static/js/main.d558551f.js.map"
   },
   "entrypoints": [
     "static/css/main.af7078af.css",
-    "static/js/main.16f6c470.js"
+    "static/js/main.d558551f.js"
   ]
 }
