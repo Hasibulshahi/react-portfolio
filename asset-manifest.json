@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.601597ec.css",
-    "main.js": "/react-portfolio/static/js/main.18473083.js",
+    "main.css": "/react-portfolio/static/css/main.5aa196cb.css",
+    "main.js": "/react-portfolio/static/js/main.0968ff1c.js",
     "static/media/unilever.jpg": "/react-portfolio/static/media/unilever.c42bfc1371f73710aee8.jpg",
     "static/media/microservices.jpg": "/react-portfolio/static/media/microservices.9e6558703b1722f87278.jpg",
     "static/media/uob.jpg": "/react-portfolio/static/media/uob.5aed98e3926a82a6ec27.jpg",
@@ -16,11 +16,11 @@
     "static/media/android.png": "/react-portfolio/static/media/android.c12505dfe6a5c83b3639.png",
     "static/media/mobile.jpg": "/react-portfolio/static/media/mobile.99d4a72f35a9a5730582.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.601597ec.css.map": "/react-portfolio/static/css/main.601597ec.css.map",
-    "main.18473083.js.map": "/react-portfolio/static/js/main.18473083.js.map"
+    "main.5aa196cb.css.map": "/react-portfolio/static/css/main.5aa196cb.css.map",
+    "main.0968ff1c.js.map": "/react-portfolio/static/js/main.0968ff1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.601597ec.css",
-    "static/js/main.18473083.js"
+    "static/css/main.5aa196cb.css",
+    "static/js/main.0968ff1c.js"
   ]
 }
