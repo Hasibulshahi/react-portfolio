@@ -24,13 +24,14 @@ import android from "./assets/techstack/android.png";
 import kotlin from "./assets/techstack/kotlin.png";
 import node from "./assets/techstack/node.png";
 import angular from "./assets/techstack/angular.png";
+
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import rize from "./assets/projects/rize.jpg";
+import tella from "./assets/projects/tella.jpg";
+import microservices from "./assets/projects/microservices.jpg";
+import uob from "./assets/projects/uob.jpg";
+import mobile from "./assets/projects/mobile.jpg";
+import unilever from "./assets/projects/unilever.jpg";
 
 // // Logos
 // export const logos = {
@@ -225,58 +226,85 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    title: "Rize MY",
+    image: rize,
+    description: `Experience effortless banking with Rize. Access your savings account instantly, open an account in minutes, and enjoy Shariah-compliant financial solutions, all powered by alrajhi bank Malaysia.`,
+    techstack: "React Native, Java, Kotlin, AWS, Kafka, Kubernetes, Docker",
+    previewLink: "https://play.google.com/store/apps/details?id=my.com.alrajhibank.wick&hl=en",
     githubLink: "https://github.com",
+    client: "Al Rajhi Bank Malaysia",
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    title: "Tella Website",
+    image: tella,
+    description: `Get your home loan sorted without the hassle. Whether you’re looking for a home loan or a better deal on your current one, we’ll help you find the best option from over 20+ lenders. Start online, anytime, anywhere.`,
+    techstack: "HTML/CSS, React, Typescript, Tailwind CSS",
+    previewLink: "https://tella.co.nz/",
     githubLink: "https://github.com",
+    client: "Tella",
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    title: "My Dash API",
+    image: microservices,
+    description: `Backend Api for Tella website. This is a microservices architecture based project. It is developed with ASP.Net Core and Azure SQL Database. It has multiple services and each service has its own database. It is a distributed system.`,
+    techstack: "ASP.Net Core, Azure SQL",
+    previewLink: "https://tella.co.nz/",
     githubLink: "https://github.com",
+    client: "Tella",
   },
   {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    title: "UOB TMRW Malaysia",
+    image: uob,
+    description: `Meet UOB TMRW, the banking app for all your financial needs. It’s banking made simple, easy and personal for you. Open a personal savings account anytime, anywhere within a few minutes. Just tap on “Apply” on the log-in page to open your UOB TMRW account.`,
+    techstack: "Android, Kotlin, Jenkins, Firebase, Java",
+    previewLink: "https://play.google.com/store/apps/details?id=com.uob.mightymy&hl=en",
     githubLink: "https://github.com",
+    client: "UOB Bank",
   },
   {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    title: "Enomad Driver",
+    image: mobile,
+    description: `Driver registration application for Enomad drivers, which helps the client to track down the driving hours for the drivers. It is a cross platform application. It is developed with Flutter and Dart.`,
+    techstack: "Flutter, Dart, Firebase",
+    previewLink: "https://home.tractive.com.my/",
     githubLink: "https://github.com",
+    client: "Tractive Sdn Bhd",
   },
   {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    title: "Enomad Player",
+    image: mobile,
+    description: `Helps the client to advertise their advertisements in the digital billboard attached top of the car.`,
+    techstack: "Android, Java",
+    previewLink: "https://home.tractive.com.my/",
     githubLink: "https://github.com",
+    client: "Tractive Sdn Bhd",
+  },
+  {
+    title: "Snipead Player",
+    image: mobile,
+    description: `Helps the client to advertise their advertisements in the digital billboard. It is a cross platform application. It is developed with Flutter and Dart.`,
+    techstack: "Android, Java",
+    previewLink: "https://home.tractive.com.my/",
+    githubLink: "https://github.com",
+    client: "Tractive Sdn Bhd",
+  },
+  {
+    title: "Lever Bazzar",
+    image: unilever,
+    description: `Online e-commerce application like chaldal/daraz etc. Shop owners can order directly by this app, and they don’t need to wait for the Sales Representatives`,
+    techstack: "Android, Java",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Unilever Bangladesh",
+  },
+  {
+    title: "NYC Authenticator",
+    image: mobile,
+    description: `2 factor authentication system for a Russian bank. Users can get an OTP (One Time Password) for 1 min only after Login. User needs to apply this OTP within the given time. After timer is up OTP will be changed and the user can be able to see the new OTP on the screen.`,
+    techstack: "Android, Java",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "NYC Bank of Russia",
   },
 ];
 
