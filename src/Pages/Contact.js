@@ -11,7 +11,7 @@ function Contact() {
       <h3 className="responsive-text text-center text-gradient font-semibold md:font-bold pt-5 md:pt-10 md:pb-6">
         <a href={`mailto:${email}`}>{email}</a>
       </h3>
-      <span className="text-center text-sm md:text-lg font-light block text-dark-heading dark:text-light-heading">
+      <span className="text-sm mt-2 text-dark-heading dark:text-light-heading font-bold">
         or
       </span>
       <h3 className="text-center text-base md:text-2xl lg:text-5xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
