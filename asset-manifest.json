@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.47f178d2.css",
-    "main.js": "/react-portfolio/static/js/main.4857d467.js",
+    "main.css": "/react-portfolio/static/css/main.601597ec.css",
+    "main.js": "/react-portfolio/static/js/main.d70c7aa5.js",
+    "static/media/unilever.jpg": "/react-portfolio/static/media/unilever.c42bfc1371f73710aee8.jpg",
+    "static/media/microservices.jpg": "/react-portfolio/static/media/microservices.9e6558703b1722f87278.jpg",
+    "static/media/uob.jpg": "/react-portfolio/static/media/uob.5aed98e3926a82a6ec27.jpg",
     "static/media/node.png": "/react-portfolio/static/media/node.032f5ea3caae3621bf89.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.749bf5e303f0d5ea12c6.jpg",
-    "static/media/project2.jpg": "/react-portfolio/static/media/project2.5fae296d371cc56cd98a.jpg",
     "static/media/angular.png": "/react-portfolio/static/media/angular.54d76fa92a7ae84a2b83.png",
     "static/media/kotlin.png": "/react-portfolio/static/media/kotlin.95ee0609f67643888953.png",
+    "static/media/tella.jpg": "/react-portfolio/static/media/tella.4dcbce97dac4130668ce.jpg",
     "static/media/java.png": "/react-portfolio/static/media/java.0bac92523a7719660940.png",
-    "static/media/project4.jpg": "/react-portfolio/static/media/project4.a7b7ed11daa072b234eb.jpg",
-    "static/media/project3.jpg": "/react-portfolio/static/media/project3.03535c34c110b7ea292b.jpg",
+    "static/media/rize.jpg": "/react-portfolio/static/media/rize.4d23de87e2a662a9b000.jpg",
     "static/media/android.png": "/react-portfolio/static/media/android.c12505dfe6a5c83b3639.png",
-    "static/media/project5.jpg": "/react-portfolio/static/media/project5.f78aa3fd070fc4dd0bd1.jpg",
-    "static/media/project6.jpg": "/react-portfolio/static/media/project6.a22c939898d6c4613b65.jpg",
+    "static/media/mobile.jpg": "/react-portfolio/static/media/mobile.99d4a72f35a9a5730582.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.47f178d2.css.map": "/react-portfolio/static/css/main.47f178d2.css.map",
-    "main.4857d467.js.map": "/react-portfolio/static/js/main.4857d467.js.map"
+    "main.601597ec.css.map": "/react-portfolio/static/css/main.601597ec.css.map",
+    "main.d70c7aa5.js.map": "/react-portfolio/static/js/main.d70c7aa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.47f178d2.css",
-    "static/js/main.4857d467.js"
+    "static/css/main.601597ec.css",
+    "static/js/main.d70c7aa5.js"
   ]
 }
