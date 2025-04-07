@@ -32,6 +32,7 @@ import microservices from "./assets/projects/microservices.jpg";
 import uob from "./assets/projects/uob.jpg";
 import mobile from "./assets/projects/mobile.jpg";
 import unilever from "./assets/projects/unilever.jpg";
+import web from "./assets/projects/web.jpg";
 
 // // Logos
 // export const logos = {
@@ -305,6 +306,87 @@ export const projectDetails = [
     previewLink: "",
     githubLink: "https://github.com",
     client: "NYC Bank of Russia",
+  },
+  {
+    title: "Lever Bazzar Help Desk",
+    image: unilever,
+    description: `Online Help Desk and admin panel for lever bazzar application. When an order has been placed operator can see the order details and confirm that and track that`,
+    techstack: "ASP.NET, SQL Server, SVM",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Unilever Bangladesh",
+  },
+  {
+    title: "Online Sales",
+    image: web,
+    description: `Online Sales-maintenance and distribution System. Full sales systems are controlled by this project.`,
+    techstack: "Java, Spring, Hibernate, SQL Server, Angular",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Unilever Bangladesh",
+  },
+  {
+    title: "Distribution Management System",
+    image: microservices,
+    description: `Offline distribution maintenance system for distribution points. Desktop application which is used by distributors.`,
+    techstack: "C#, SQL Server, WPF",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Socian AI",
+  },
+  {
+    title: "Bkash Application",
+    image: mobile,
+    description: `Graphical representation of the Bkash service using buttons instead of USSD codes.`,
+    techstack: "Android, Java",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Bracathon 2015",
+  },
+  {
+    title: "IMS",
+    image: web,
+    description: `Inventory Management System for stores and super shops. It is a cross platform application. It is developed with Flutter and Dart.`,
+    techstack: "Spring Boot, Node.Js, React.Js, MYSQL",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Overseas",
+  },
+  {
+    title: "MSP",
+    image: web,
+    description: `Providing all the house hold services such as gas, water, electricity.`,
+    techstack: "Node.Js",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Overseas",
+  },
+  {
+    title: "DSDT",
+    image: web,
+    description: `Design and implement a system for detecting Depressive Symptoms from Social Media posts.`,
+    techstack: "Python, Django, MySQL",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "UPM",
+  },
+  {
+    title: "Magic Image",
+    image: mobile,
+    description: `Enhanced image quality and edit them.`,
+    techstack: "Python, Android",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Overseas",
+  },
+  {
+    title: "AI Photo Synthesizer",
+    image: mobile,
+    description: `Design and implementing optimized image quality, detect shapes, colors, face recognition and modification`,
+    techstack: "Python, Android",
+    previewLink: "",
+    githubLink: "https://github.com",
+    client: "Malaysia",
   },
 ];
 
