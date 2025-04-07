@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.601597ec.css",
-    "main.js": "/react-portfolio/static/js/main.d70c7aa5.js",
+    "main.js": "/react-portfolio/static/js/main.18473083.js",
     "static/media/unilever.jpg": "/react-portfolio/static/media/unilever.c42bfc1371f73710aee8.jpg",
     "static/media/microservices.jpg": "/react-portfolio/static/media/microservices.9e6558703b1722f87278.jpg",
     "static/media/uob.jpg": "/react-portfolio/static/media/uob.5aed98e3926a82a6ec27.jpg",
     "static/media/node.png": "/react-portfolio/static/media/node.032f5ea3caae3621bf89.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.749bf5e303f0d5ea12c6.jpg",
     "static/media/angular.png": "/react-portfolio/static/media/angular.54d76fa92a7ae84a2b83.png",
+    "static/media/web.jpg": "/react-portfolio/static/media/web.f45ac8fe98088b77a664.jpg",
     "static/media/kotlin.png": "/react-portfolio/static/media/kotlin.95ee0609f67643888953.png",
     "static/media/tella.jpg": "/react-portfolio/static/media/tella.4dcbce97dac4130668ce.jpg",
     "static/media/java.png": "/react-portfolio/static/media/java.0bac92523a7719660940.png",
@@ -16,10 +17,10 @@
     "static/media/mobile.jpg": "/react-portfolio/static/media/mobile.99d4a72f35a9a5730582.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.601597ec.css.map": "/react-portfolio/static/css/main.601597ec.css.map",
-    "main.d70c7aa5.js.map": "/react-portfolio/static/js/main.d70c7aa5.js.map"
+    "main.18473083.js.map": "/react-portfolio/static/js/main.18473083.js.map"
   },
   "entrypoints": [
     "static/css/main.601597ec.css",
-    "static/js/main.d70c7aa5.js"
+    "static/js/main.18473083.js"
   ]
 }
