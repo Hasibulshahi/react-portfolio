@@ -8,7 +8,7 @@ function Contact() {
       <h1 className="text-center text-lg md:text-3xl lg:text-6xl text-dark-heading dark:text-light-heading font-semibold md:font-bold">
         For any questions please drop a mail
       </h1>
-      <h3 className="text-center text-base md:text-2xl lg:text-3xl text-gradient font-semibold md:font-bold pt-5 md:pt-10 md:pb-6">
+      <h3 className="responsive-text text-center text-gradient font-semibold md:font-bold pt-5 md:pt-10 md:pb-6">
         <a href={`mailto:${email}`}>{email}</a>
       </h3>
       <span className="text-center text-sm md:text-lg font-light block">or</span>
