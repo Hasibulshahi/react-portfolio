@@ -37,79 +37,79 @@ function Technologies() {
         <div className="text-center">
           <div className="relative">
             <img src={html} title="HTML" alt="HTML" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">HTML</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">HTML</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={css} title="CSS" alt="CSS" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">CSS</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">CSS</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={js} title="JavaScript" alt="JavaScript" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">JavaScript</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">JavaScript</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={react} title="React" alt="React" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">React</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">React</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={redux} title="Redux" alt="Redux" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Redux</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Redux</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Tailwind CSS</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Tailwind</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={bootstrap} title="Bootstrap" alt="Bootstrap" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Bootstrap</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Bootstrap</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={sass} title="SASS" alt="SASS" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">SASS</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">SASS</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={java} title="Java" alt="Java" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Java</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Java</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={android} title="Android" alt="Android" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Android</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Android</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={kotlin} title="Kotlin" alt="Kotlin" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Kotlin</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Kotlin</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={node} title="Node" alt="Node" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Node.Js</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Node.Js</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={angular} title="Angular" alt="Angular" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Angular</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Angular</p>
           </div>
         </div>
       </section>
@@ -122,37 +122,37 @@ function Technologies() {
         <div className="text-center">
           <div className="relative">
             <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Visual Studio Code</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">VSCode</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={git} title="Git" alt="Git" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Git</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Git</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={github} title="Github" alt="Github" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Github</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Github</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={figma} title="Figma" alt="Figma" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Figma</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Figma</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={npm} title="NPM" alt="NPM" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">NPM</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">NPM</p>
           </div>
         </div>
         <div className="text-center">
           <div className="relative">
             <img src={postman} title="Postman" alt="Postman" className="mx-auto w-16 h-16" />
-            <p className="text-sm mt-2">Postman</p>
+            <p className="text-sm mt-2 text-dark-heading dark:text-light-heading">Postman</p>
           </div>
         </div>
       </section>
