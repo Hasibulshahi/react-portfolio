@@ -11,10 +11,10 @@ function Contact() {
       <h3 className="responsive-text text-center text-gradient font-semibold md:font-bold pt-5 md:pt-10 md:pb-6">
         <a href={`mailto:${email}`}>{email}</a>
       </h3>
-      <span className="text-sm mt-2 text-dark-heading dark:text-light-heading font-bold">
+      <span className="block w-full text-center text-lg md:text-xl mt-2 text-dark-heading dark:text-light-heading font-extrabold">
         or
       </span>
-      <h3 className="text-center text-base md:text-2xl lg:text-5xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
+      <h3 className="text-center text-sm md:text-base lg:text-lg text-gradient font-semibold md:font-bold pt-2 md:py-6">
         <a href={`tel:${phone}`}>{phone}</a>
       </h3>
     </main>

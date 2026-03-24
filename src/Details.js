@@ -26,6 +26,7 @@ import node from "./assets/techstack/node.png";
 import angular from "./assets/techstack/angular.png";
 
 // Porject Images
+import rhb from "./assets/projects/rhb.png";
 import rize from "./assets/projects/rize.jpg";
 import tella from "./assets/projects/tella.jpg";
 import microservices from "./assets/projects/microservices.jpg";
@@ -45,19 +46,40 @@ export const personalDetails = {
   name: "Md Hasibul Hassan",
   tagline: "Driven by Code. Powered by Passion. Focused on Results.",
   img: profile,
-  about: `Versatile Full-Stack & Mobile App Developer with 6+ years of experience, specializing in Flutter, React Native, Kotlin, Java, ASP.Net Core, and cloud-based architecture on Azure & AWS. Proven track record in developing scalable web and mobile applications, leading cross-functional teams, and delivering high-impact solutions across fintech, e-commerce, and AI-driven platforms. Adept at clean code architecture, API integration, and modern development frameworks. Passionate about innovation, continuous learning, and building seamless digital experiences.`,
+  about: `Senior Software Engineer with 7 years of experience designing and building scalable enterprise applications, backend systems, and mobile platforms. Strong expertise in Java, Kotlin, Spring Boot, ASP.NET Core, Node.js, and React, with hands-on experience in cloud platforms including AWS and
+          Microsoft Azure. Proven track record delivering secure banking platforms, microservices architectures, and API-driven systems across fintech, enterprise, and mobile
+          environments. Experienced in RESTful API design, cloud deployment, event-driven systems, CI/CD pipelines, and Agile development. Passionate
+          about building maintainable systems using modern architecture patterns and DevOps practices.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/md-hasibul-hassan-239998381/",
+  github: "https://github.com/Hasibulshahi"
 };
 
 // Enter your Work Experience here
 export const workDetails = [
+    {
+    Position: "Senior Full Stack Developer",
+    Company: `Accord Innovation Sdn Bhd`,
+    Client: `RHB Bank`,
+    Location: "Kuala Lumpur, Malaysia",
+    Technology: "React Native, React.Js, Node.Js, Azure",
+    Type: "Full Time",
+    Duration: "Jan 2026 - Present",
+    Responsibilities: [
+      "Develop React Native application for RHB Bank",
+      "Develop Web application for RHB Bank",
+      "Use of Azure services",
+      "Develop API in Node.Js",
+      "Maintain the Existing Framework",
+      "Develop the new features",
+      "Bug Fixing and Analyzing",
+      "Use GitActions for CI/CD",
+      "Use Azure Functions for serverless computing",
+    ],
+  },
   {
     Position: "Senior Java Backend Developer",
     Company: `Accord Innovation Sdn Bhd`,
@@ -65,7 +87,7 @@ export const workDetails = [
     Location: "Kuala Lumpur, Malaysia",
     Technology: "Spring Boot, Java, Kotlin",
     Type: "Full Time",
-    Duration: "Feb 2025 - Present",
+    Duration: "Feb 2025 - Jan 2026",
     Responsibilities: [
       "Develop Microservices",
       "Implement Apollo Server for API gateway",
@@ -226,6 +248,17 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "RHB MyHome",
+    image: rhb,
+    description: `Designed with you in mind, the RHB MyHome app takes away the hassle of applying for a mortgage. You’ll be guided and kept informed digitally, every step of the way.
+                  Apply from home
+                  Forget about going to the bank to apply for your mortgage. You can do it from the comfort of your home, or wherever you may be – from submitting documents to checking your application status anytime up to getting approval. All via the app.`,
+    techstack: "React Native, React.Js, Node.Js, Azure",
+    previewLink: "https://play.google.com/store/search?q=rhb+myhome+app&c=apps&hl=en",
+    githubLink: "https://github.com",
+    client: "RHB Bank Malaysia",
+  },
   {
     title: "Rize MY",
     image: rize,
