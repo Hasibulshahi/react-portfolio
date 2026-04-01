@@ -35,6 +35,15 @@ import mobile from "./assets/projects/mobile.jpg";
 import unilever from "./assets/projects/unilever.jpg";
 import web from "./assets/projects/web.jpg";
 
+const reactNative = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg";
+const flutter = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg";
+const aspnet = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg";
+const aspnetcore = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg";
+const springboot = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg";
+const aws = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg";
+const azure = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg";
+const docker = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg";
+
 // // Logos
 // export const logos = {
 //   logogradient: logogradient,
@@ -229,6 +238,7 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
+  reactNative: reactNative,
   redux: redux,
   sass: sass,
   tailwind: tailwind,
@@ -240,10 +250,17 @@ export const techStackDetails = {
   github: github,
   figma: figma,
   java: java,
-  android: android, 
+  android: android,
   kotlin: kotlin,
+  flutter: flutter,
   node: node,
+  aspnet: aspnet,
+  aspnetcore: aspnetcore,
+  springboot: springboot,
   angular: angular,
+  aws: aws,
+  azure: azure,
+  docker: docker,
 };
 
 // Enter your Project Details here
