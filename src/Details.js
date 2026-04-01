@@ -248,6 +248,16 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+    {
+    title: "Easy CV Maker",
+    image: web,
+    description: `Designed with you in mind, the Easy CV Maker app takes away the hassle of creating a professional CV. You’ll be guided and kept informed digitally, every step of the way.
+                  Easy to make EuroPass Standard CV. Easy to download directly, no need to spend money on paid sites. Just put your details and download instantly.`,
+    techstack: "React.Js",
+    previewLink: "https://hasibulshahi.github.io/easy_cv_maker/",
+    githubLink: "https://github.com/Hasibulshahi/easy_cv_maker",
+    client: "Personal Project",
+  },
   {
     title: "RHB MyHome",
     image: rhb,
